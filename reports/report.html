@@ -7,7 +7,7 @@
   </head>
   <body>
     <h1 id="title">report.html</h1>
-    <p>Report generated on 14-Feb-2024 at 14:53:47 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a>
+    <p>Report generated on 20-Feb-2024 at 12:51:56 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a>
         v4.1.1</p>
     <div id="environment-header">
       <h2>Environment</h2>
@@ -61,7 +61,7 @@
         <h2>Summary</h2>
         <div class="additional-summary prefix">
         </div>
-        <p class="run-count">1 test took 00:00:16.</p>
+        <p class="run-count">1 test took 00:00:22.</p>
         <p class="filter">(Un)check the boxes to filter the results.</p>
         <div class="summary__reload">
           <div class="summary__reload__button hidden" onclick="location.reload()">
@@ -71,10 +71,10 @@
         <div class="summary__spacer"></div>
         <div class="controls">
           <div class="filters">
-            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="failed" />
-            <span class="failed">1 Failed,</span>
-            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="passed" disabled/>
-            <span class="passed">0 Passed,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="failed" disabled/>
+            <span class="failed">0 Failed,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="passed" />
+            <span class="passed">1 Passed,</span>
             <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="skipped" disabled/>
             <span class="skipped">0 Skipped,</span>
             <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="xfailed" disabled/>
@@ -108,7 +108,7 @@
     </table>
   </body>
   <footer>
-    <div id="data-container" data-jsonblob="{&#34;environment&#34;: {&#34;Python&#34;: &#34;3.12.0&#34;, &#34;Platform&#34;: &#34;macOS-14.2.1-arm64-arm-64bit&#34;, &#34;Packages&#34;: {&#34;pytest&#34;: &#34;8.0.0&#34;, &#34;pluggy&#34;: &#34;1.4.0&#34;}, &#34;Plugins&#34;: {&#34;html&#34;: &#34;4.1.1&#34;, &#34;metadata&#34;: &#34;3.1.1&#34;}}, &#34;tests&#34;: {&#34;testcases/test_Login.py::TestLogin::test_login&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;testcases/test_Login.py::TestLogin::test_login&#34;, &#34;duration&#34;: &#34;00:00:16&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;testcases/test_Login.py::TestLogin::test_login&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:16&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;self = &amp;lt;testcases.test_Login.TestLogin object at 0x1022ed700&amp;gt;, setup = &amp;lt;selenium.webdriver.chrome.webdriver.WebDriver (session=&amp;quot;97c795fb9dd84cc41b1d99ba02acfcc9&amp;quot;)&amp;gt;\n\n    def test_login(self, setup):\n        self.logger.info(&amp;quot;*** Test for login starting ***&amp;quot;)\n        self.driver = setup\n        self.driver.get(self.baseURL)\n        self.login = LoginPage(self.driver)\n        self.login.setUserName(self.username)\n        self.login.setPassword(self.password)\n        self.login.clickLogin()\n        self.actualTitle = self.driver.title\n        self.expectedTitle = &amp;quot;OrangeHRM h&amp;quot;\n        if self.actualTitle == self.expectedTitle:\n            assert True\n            self.driver.close()\n            self.logger.info(&amp;quot;*** Test Case Passed ***&amp;quot;)\n            self.logger.info(&amp;quot;*** Title successfully matched ***&amp;quot;)\n        else:\n            self.driver.save_screenshot(&amp;quot;./screenshots/&amp;quot; + &amp;quot;login_failed.png&amp;quot;)\n            self.driver.close()\n            self.logger.info(&amp;quot;*** Test Case Failed ***&amp;quot;)\n            self.logger.error(&amp;quot;*** Title does not match ***&amp;quot;)\n&amp;gt;           assert False\nE           assert False\n\ntestcases/test_Login.py:34: AssertionError\n\n------------------------------ Captured log call -------------------------------\nINFO     root:test_Login.py:15 *** Test for login starting ***\nINFO     root:test_Login.py:32 *** Test Case Failed ***\nERROR    root:test_Login.py:33 *** Title does not match ***\n\n&#34;}]}, &#34;renderCollapsed&#34;: [&#34;passed&#34;], &#34;initialSort&#34;: &#34;result&#34;, &#34;title&#34;: &#34;report.html&#34;}"></div>
+    <div id="data-container" data-jsonblob="{&#34;environment&#34;: {&#34;Python&#34;: &#34;3.12.0&#34;, &#34;Platform&#34;: &#34;macOS-14.2.1-arm64-arm-64bit&#34;, &#34;Packages&#34;: {&#34;pytest&#34;: &#34;8.0.0&#34;, &#34;pluggy&#34;: &#34;1.4.0&#34;}, &#34;Plugins&#34;: {&#34;html&#34;: &#34;4.1.1&#34;, &#34;metadata&#34;: &#34;3.1.1&#34;}}, &#34;tests&#34;: {&#34;testcases/test_admin_registration.py::TestRegistration::test_admin_reg&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;testcases/test_admin_registration.py::TestRegistration::test_admin_reg&#34;, &#34;duration&#34;: &#34;00:00:22&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;testcases/test_admin_registration.py::TestRegistration::test_admin_reg&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:22&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\nINFO     root:test_admin_registration.py:18 *** Test for login starting ***\nINFO     root:test_admin_registration.py:26 *** Test for admin registration starting ***\nINFO     root:test_admin_registration.py:45 *** Test Case Passed ***\nINFO     root:test_admin_registration.py:46 *** Admin successfully added ***\n\n&#34;}]}, &#34;renderCollapsed&#34;: [&#34;passed&#34;], &#34;initialSort&#34;: &#34;result&#34;, &#34;title&#34;: &#34;report.html&#34;}"></div>
     <script>
       (function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
 const { getCollapsedCategory, setCollapsedIds } = require('./storage.js')

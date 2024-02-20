@@ -1,5 +1,3 @@
-import time
-
 from pageobjects.LoginPage import LoginPage
 from utilities.readProperties import ReadConfig
 from utilities.customLogger import LogGen
@@ -32,5 +30,3 @@ class TestLogin:
             self.logger.info("*** Test Case Failed ***")
             self.logger.error("*** Title does not match ***")
             assert False
-
-
