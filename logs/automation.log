@@ -50,3 +50,7 @@
 02212024 11:30:27 AM: INFO: *** Test for login starting ***
 02212024 11:30:39 AM: INFO: *** Redirecting to Admin page ***
 02212024 11:30:46 AM: ERROR: *** Search result Mis matched ***
+02212024 11:37:18 AM: INFO: *** Test for login starting ***
+02212024 11:37:30 AM: INFO: *** Redirecting to Admin page ***
+02212024 11:37:31 AM: INFO: *** Searching Admin page ***
+02212024 11:37:32 AM: INFO: *** Search result matched ***

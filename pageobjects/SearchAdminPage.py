@@ -21,6 +21,6 @@ class SearchAdminPage:
         self.driver.find_element(By.XPATH, self.search_cta_xpath).click()
 
     def matchResults(self):
-        time.sleep(4)
-        element = self.driver.find_element(By.XPATH, self.match_result_xpath)
+        self.wait = WebDriverWait(self.driver, 10)
+        element = self.wait.until(EC.presence_of_element_located((By.XPATH, self.match_result_xpath)))
         return element.text
