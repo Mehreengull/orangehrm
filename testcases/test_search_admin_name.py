@@ -7,7 +7,7 @@ from pageobjects.AdminPage import AdminPage
 from pageobjects.SearchAdminPage import SearchAdminPage
 
 
-class TestSearchAdmin:
+class TestSearchAdminName:
     baseURL = ReadConfig.getAppURL()
     username = ReadConfig.getUsername()
     password = ReadConfig.getPassword()
@@ -25,17 +25,21 @@ class TestSearchAdmin:
         self.logger.info("*** Redirecting to Admin page ***")
         self.ap = AdminPage(self.driver)
         self.ap.clickAdminMenu()
-        self.logger.info("*** Searching Admin page ***")
+        self.logger.info("*** Searching Admin Name ***")
         self.sa = SearchAdminPage(self.driver)
         self.sa.typeInputInSearch("Admin")
         self.sa.clickSearch()
-        search_result = self.sa.matchResults()
+        search_result = self.sa.matchNameResults()
         if search_result == "Admin":
             assert True
-            self.logger.info("*** Search result matched ***")
             self.driver.close()
+            self.logger.info("*** Search result matched ***")
         else:
             self.driver.save_screenshot("./screenshots/" + "admin_search.png")
-            self.logger.error("*** Search result mis matched ***")
             self.driver.close()
+            self.logger.error("*** Search result mis matched ***")
             assert False
+
+
+
+
