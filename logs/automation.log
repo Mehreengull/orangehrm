@@ -26,3 +26,27 @@
 02202024 12:51:48 PM: INFO: *** Test for admin registration starting ***
 02202024 12:51:56 PM: INFO: *** Test Case Passed ***
 02202024 12:51:56 PM: INFO: *** Admin successfully added ***
+02212024 10:58:55 AM: INFO: *** Test for login starting ***
+02212024 10:59:07 AM: INFO: *** Test for admin registration starting ***
+02212024 11:01:29 AM: INFO: *** Test for login starting ***
+02212024 11:01:42 AM: INFO: *** Test for admin registration starting ***
+02212024 11:01:51 AM: INFO: *** Test Case Passed ***
+02212024 11:01:51 AM: INFO: *** Admin successfully added ***
+02212024 11:17:40 AM: INFO: *** Test for login starting ***
+02212024 11:17:52 AM: INFO: *** Redirecting to Admin page ***
+02212024 11:18:40 AM: INFO: *** Test for login starting ***
+02212024 11:18:53 AM: INFO: *** Redirecting to Admin page ***
+02212024 11:22:28 AM: INFO: *** Test for login starting ***
+02212024 11:22:40 AM: INFO: *** Redirecting to Admin page ***
+02212024 11:25:23 AM: INFO: *** Test for login starting ***
+02212024 11:25:36 AM: INFO: *** Redirecting to Admin page ***
+02212024 11:26:03 AM: INFO: *** Test for login starting ***
+02212024 11:26:15 AM: INFO: *** Redirecting to Admin page ***
+02212024 11:26:45 AM: INFO: *** Test for login starting ***
+02212024 11:26:58 AM: INFO: *** Redirecting to Admin page ***
+02212024 11:29:19 AM: INFO: *** Test for login starting ***
+02212024 11:29:31 AM: INFO: *** Redirecting to Admin page ***
+02212024 11:29:37 AM: ERROR: *** Search result Mis matched ***
+02212024 11:30:27 AM: INFO: *** Test for login starting ***
+02212024 11:30:39 AM: INFO: *** Redirecting to Admin page ***
+02212024 11:30:46 AM: ERROR: *** Search result Mis matched ***
